@@ -1,0 +1,16 @@
+create database employeemanagementsystem;
+use employeemanagementsystem;
+create table registration(name varchar(25),id int NOT NULL primary key,mobile varchar(10),password varchar(20),gender char(10),car char(10),address varchar(25));
+desc registration;
+select * from registration;
+
+
+
+create table employee_details(name varchar(25),id int NOT NULL primary key,dept varchar(25),position varchar(20),carno int,mobile varchar(10),area varchar(25));
+desc employee_details;
+select * from employee_details;
+
+
+create table car_pool(name varchar(25),mobile varchar(10),position varchar(20),area varchar(25),gender char(10),carpool varchar(10));
+desc car_pool;
+select * from car_pool;

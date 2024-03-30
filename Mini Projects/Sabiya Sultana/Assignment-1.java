@@ -51,5 +51,3 @@ public class Simple_Program {
 		        return sum;             
 		    }
 	}
-
-
